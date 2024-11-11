@@ -2,6 +2,7 @@
 TARGET = basic_multi_delay
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = basic_multi_delay.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

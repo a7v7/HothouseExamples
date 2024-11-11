@@ -4,6 +4,7 @@ TARGET = shimmer_verb
 USE_DAISYSP_LGPL = 1
 
 # Sources
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = shimmer_verb.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

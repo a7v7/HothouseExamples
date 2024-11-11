@@ -2,6 +2,7 @@
 TARGET = hello-world
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = hello-world.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

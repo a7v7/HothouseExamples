@@ -2,6 +2,7 @@
 TARGET = basic_flanger
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = basic_flanger.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

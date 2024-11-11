@@ -5,6 +5,7 @@ TARGET = reset_to_bootloader
 #USE_DAISYSP_LGPL=1
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = reset_to_bootloader.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

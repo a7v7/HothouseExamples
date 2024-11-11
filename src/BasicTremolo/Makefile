@@ -2,6 +2,7 @@
 TARGET = basic_tremolo
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = basic_tremolo.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

@@ -5,6 +5,7 @@ TARGET = hardware_test
 #USE_DAISYSP_LGPL=1
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = hardware_test.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

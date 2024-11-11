@@ -5,6 +5,7 @@ TARGET = stereo_reverb_with_tails
 USE_DAISYSP_LGPL=1
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = stereo_reverb_with_tails.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

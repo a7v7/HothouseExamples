@@ -4,6 +4,7 @@ TARGET = harmonic_trem_verb
 USE_DAISYSP_LGPL=1
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = harmonic_trem_verb.cpp extended_oscillator.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

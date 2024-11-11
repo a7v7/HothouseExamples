@@ -3,6 +3,7 @@ TARGET = tri_chorus
 export TARGET
 
 # Sources and Hothouse header files
+C_SOURCES = ../syscalls.c
 CPP_SOURCES = tri_chorus.cpp ../hothouse.cpp
 C_INCLUDES = -I..
 

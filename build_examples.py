@@ -42,7 +42,7 @@ def build_examples(src_dir, publish_dir=None):
         print(f"Building: {example.name} ...")
         try:
             run_command("make clean", cwd=example)
-            run_command("make", cwd=example)
+            run_command("make -j", cwd=example)
             if publish_dir:
                 run_command(f"make publish PUBLISH_DIR={publish_dir}", cwd=example)
         except subprocess.CalledProcessError as e:
